@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TaskFlow AI</string>
+    <string name="widget_description">Your tasks and progress on the home screen</string>
+</resources>
