@@ -5,7 +5,8 @@ import androidx.glance.GlanceId
 import androidx.glance.GlanceModifier
 import androidx.glance.action.ActionParameters
 import androidx.glance.action.actionParametersOf
-import androidx.glance.action.actionRunCallback
+import androidx.glance.appwidget.action.actionRunCallback
+import androidx.glance.appwidget.updateAll
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
 import androidx.glance.appwidget.action.ActionCallback
@@ -22,9 +23,7 @@ import androidx.glance.text.FontWeight
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.rohithannam.taskflowai.MainActivity
 import com.rohithannam.taskflowai.TaskStorage
-import com.rohithannam.taskflowai.TaskItem
 import org.json.JSONArray
 
 class TaskFlowWidget : GlanceAppWidget() {
